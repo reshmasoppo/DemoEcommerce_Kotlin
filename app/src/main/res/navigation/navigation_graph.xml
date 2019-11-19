@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/firstFragment"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph">
+
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.demoecommerce_kotlin.Splash_screenFragment"
+        android:label="navigation_first_fragment"
+        tools:layout="@layout/fragment_splash_screen" >
+    </fragment>
+
+
+       <!-- <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/secondFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"  />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.demoecommerce_kotlin.Login_Fragment"
+        android:label="navigation_second_fragment"
+        tools:layout="@layout/fragment_login" />!-->
+
+    <!--<activity
+        android:id="@+id/firstFragment"
+        android:name="com.example.demoecommerce_kotlin.L"
+        android:label="navigation_first_fragment"
+        tools:layout="@layout/activity_login" >
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/secondFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"  />
+    </activity>!-->
+
+
+
+</navigation>
