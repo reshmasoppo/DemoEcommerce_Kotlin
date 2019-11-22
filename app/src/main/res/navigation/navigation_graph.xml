@@ -2,23 +2,19 @@
 <navigation
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:startDestination="@id/splashFragment"
+    app:startDestination="@id/homeFragment"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_graph">
 
-    <fragment
-        android:id="@+id/splashFragment"
-        android:name="com.example.demoecommerce_kotlin.Splash_screenFragment"
-        android:label="navigation_first_fragment"
-        tools:layout="@layout/fragment_splash_screen" >
 
-    <action
+
+    <!--<action
             android:id="@+id/action_splashtFragment_to_signupFragment"
             app:destination="@id/signUpFragment"
             app:enterAnim="@anim/nav_default_enter_anim"  />
-    </fragment>
+    </fragment>!-->
 
-    <fragment
+   <!-- <fragment
         android:id="@+id/signUpFragment"
         android:name="com.example.demoecommerce_kotlin.SignUp_Fragment"
         android:label="navigation_second_fragment"
@@ -47,7 +43,7 @@
         android:id="@+id/homeFragment"
         android:name="com.example.demoecommerce_kotlin.HomeFragment"
         android:label="navigation_home_fragment"
-        tools:layout="@layout/fragment_home"/>
+        tools:layout="@layout/fragment_home"/>!-->
 
 
 </navigation>

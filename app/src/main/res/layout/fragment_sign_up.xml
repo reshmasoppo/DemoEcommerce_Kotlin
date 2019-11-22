@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@color/colorAccent"
-    android:layout_height="match_parent"
-    tools:context=".SignUp_Fragment">
+    android:layout_height="match_parent">
 
 
     <include
@@ -21,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/textView"
+        android:id="@+id/textv_click"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -29,6 +28,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Already have an account?SignIn"
+        android:onClick="sign_in"
         android:textColor="#F7F5F5"
         android:textSize="15sp"
         android:textStyle="bold"

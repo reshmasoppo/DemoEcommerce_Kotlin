@@ -5,10 +5,12 @@
     android:id="@+id/navgation_bottom" >
 
       <fragment
-       android:id="@+id/home"
+       android:id="@+id/homefragment"
         android:name="com.example.demoecommerce_kotlin.HomeFragment"
-        android:label="navigation_first_fragment" />
+        android:label="navigation_home_fragment" />
 
-
-
+      <fragment
+          android:id="@+id/accountfragment"
+          android:name="com.example.demoecommerce_kotlin.AccountFragment"
+          android:label="navigation_account_fragment" />
 </navigation>

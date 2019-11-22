@@ -5,10 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAccent"
-    tools:context=".Login_Fragment">
-
-
+    android:background="@color/colorAccent">
     <include
         android:id="@+id/inc4"
         layout="@layout/sign_in_design"
@@ -25,7 +22,7 @@
         app:layout_constraintVertical_bias="0.165" />
 
     <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_signup"
         app:layout_constraintTop_toBottomOf="@+id/inc4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
