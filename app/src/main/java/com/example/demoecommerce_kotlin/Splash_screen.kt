@@ -32,6 +32,7 @@ class Splash_screen : AppCompatActivity()
         setContentView(R.layout.fragment_splash_screen)
         Buttn_Signup=findViewById(R.id.butn_signup)
 
+        supportActionBar?.hide()
         imageModelArrayList = ArrayList()
         imageModelArrayList = populateList()
 

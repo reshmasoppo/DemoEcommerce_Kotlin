@@ -12,10 +12,11 @@ class LoginActivity :AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_login)
-
+        supportActionBar?.hide()
         btn_login.setOnClickListener {
 
-            var intent:Intent=Intent(applicationContext,Home_Activity::class.java)
+            var intent:Intent=Intent(applicationContext,Dashboard_Activity::class.java)
+            startActivity(intent)
         }
 
         // set on-click listener

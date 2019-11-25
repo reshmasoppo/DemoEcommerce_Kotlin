@@ -2,13 +2,14 @@
 <navigation
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:startDestination="@id/homeFragment"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_graph">
 
 
 
     <!--<action
+     app:startDestination="@id/homeFragment"
             android:id="@+id/action_splashtFragment_to_signupFragment"
             app:destination="@id/signUpFragment"
             app:enterAnim="@anim/nav_default_enter_anim"  />

@@ -8,5 +8,6 @@
     <string name="Email">Email Address</string>
     <string name="password">Enter Password</string>
     <string name="confirmpwd">Confirm Password</string>
+    <string name="banner_image_content">Banner Image</string>
 
 </resources>

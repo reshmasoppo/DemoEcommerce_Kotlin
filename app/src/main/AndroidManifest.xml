@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".SigunUp_Activity"/>
         <activity android:name=".LoginActivity"/>
+        <activity android:name=".Dashboard_Activity"/>
     </application>
 
 
