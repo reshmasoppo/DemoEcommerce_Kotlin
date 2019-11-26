@@ -13,7 +13,6 @@ class Splash_screen : AppCompatActivity()
     private var imageModelArrayList: ArrayList<ImageModel>? = null
     lateinit var Buttn_Signup:Button
 
-
     private val myImageList = intArrayOf(R.drawable.img_1,
         R.drawable.img_2,
         R.drawable.img_3,
